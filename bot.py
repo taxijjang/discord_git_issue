@@ -1,19 +1,4 @@
-# import discord
-# from discord.ext import commands
-# app = commands.Bot(command_prefix='!')
-#
-# @app.event
-# async def on_ready():
-#     print(app.user.name, 'has connected to Discord!')
-#     await app.change_presence(status=discord.Status.online, activity=None)
-#     print("ready")
-#
-# @app.command()
-# async def 자비스(ctx, *, text):
-#     await ctx.send(text)
-#     app.run('ODMwNjc5MTA2MTA2Mjk0MzEy.YHKMNA.ubAyUOME-xHqYC5-gqhqiYuArrE')
-
-
+from secret import SECRET
 import discord
 from discord.ext import commands
 
@@ -40,7 +25,7 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run('ODMwNjc5MTA2MTA2Mjk0MzEy.YHKMNA.ubAyUOME-xHqYC5-gqhqiYuArrE')
+client.run(SECRET['DISCORD_BOT_TOKEN'])
 
 # import os
 #
