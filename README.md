@@ -14,6 +14,4 @@
 ---
 
 ### 개발 완료후 사용
-
-
-
+<img width="400" alt="discord_bot" src="https://user-images.githubusercontent.com/29100894/125185974-a94cff00-e262-11eb-9625-59569da01dbe.png">
